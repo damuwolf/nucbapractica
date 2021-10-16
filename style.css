@@ -1,41 +1,34 @@
-    ´{
-        margin: 0px;
-        padding: 0px;
-        box-sizing: 0px;
-
-    }
-
-/*body {
-    background-color: lightyellow;
-    background-image: url("https://images.photolamus.com/jZMw2qfg/463x463/c/m/dab7741da25bdf82dc2fd82adf5865bf/full-body-dachshund-portrait-in-colorful-watercolor-from-photos.jpg");
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-attachment: fixed;
-}
-.remove-bg {
-    filter: brightness(1.1);
-    mix-blend-mode: multiply;
-    align-items: right;
-}*/
-
-body {
-    background-image: conic-gradient(red 45deg, orange 90deg, yellow 45deg);
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
 }
 
-h1, h2, h3, p {
-    padding: 50px;
-    margin-top: 10px;
-    background-color: darkgoldenrod;
+.wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
 }
 
-h1, .claseDos {
-    font-size: 40px;
+.header {
+    background: violet;
 }
 
-.perritoSalchica {
-    background-color: maroon;
+.footer {
+    background: whitesmoke;
 }
 
-#perritoSalchica {
-    background-color: crimson;
+.main {
+    text-align: left;
+    background: deepskyblue;
 }
+
+.aside-1 {
+    background: gold;
+}
+
+.aside-2 {
+    background: green;
+}
+
+/* Vamos a usar etiquetas de la clase  */
